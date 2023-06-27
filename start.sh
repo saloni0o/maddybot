@@ -4,7 +4,7 @@ then
   git clone https://github.com/theamanchaudhary/maddybot.git /maddybot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /AutoFilterBot
+  git clone $UPSTREAM_REPO /maddybot
 fi
 cd /AutoFilterBot
 pip3 install -U -r requirements.txt
