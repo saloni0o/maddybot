@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Auto_Filters_Bot')
 API_ID = int(environ.get('API_ID', '20077906'))
 API_HASH = environ.get('API_HASH', 'da36369fbe92c05fd924331af2615e73')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6247236133:AAEn8O_JeUn5OR0hRGiufga5SPxcPJWhXXM')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6345688906:AAGkvk99GB0txvVrXilgfKwbYR1tJtD25Dk')
 
 # Bot pics and stickers
 STICKERS = (environ.get('STICKERS', 'CAACAgIAAxkBAAEGm9hjhf69CtQmXoeQ2HidYCGBFeZ4gAACxgEAAhZCawpKI9T0ydt5RysE CAACAgIAAxkBAAEGm9pjhf7I9jCDh3PpkocMNFcPJfisvwAC0wADVp29CvUyj5fVEvk9KwQ CAACAgIAAxkBAAEGm9xjhf7SH4Yc8EP5yI4e8BTH968ClwACGAADDbbSGX671giQDJU8KwQ')).split()
